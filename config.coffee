@@ -5,8 +5,7 @@ exports.config =
       defaultExtension: 'coffee'
       joinTo:
         'javascripts/app.js': /^app/
-        'javascripts/vendor/spine.js': /^vendor\/scripts\/spine/
-        'javascripts/vendor/common.js': /^vendor\/scripts\/common/
+        'javascripts/vendor.js': /^vendor\/scripts/
       order:
         before: [
           'vendor/scripts/common/jquery-1.8.3.min.js',
