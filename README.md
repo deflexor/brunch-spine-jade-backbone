@@ -1,9 +1,9 @@
-# Brunch with coffee
+# Brunch with coffee, jade and bootstrap
 This is a simple coffee skeleton for [Brunch](http://brunch.io/).
 
 Main languages are [CoffeeScript](http://coffeescript.org/),
 [Stylus](http://learnboost.github.com/stylus/) and
-[Handlebars](http://handlebarsjs.com/).
+[Jade](http://jade-lang.com/).
 
 ## Getting started
 
@@ -28,9 +28,10 @@ See more info on the [official site](http://brunch.io)
       unit/
     /vendor/
       scripts/
-        jquery.js
-        console-helper.js
-        underscore.js
+        common/
+          jquery.js
+          console-helper.js
+          underscore.js
         spine.js
         spine/lib/ajax.js
         spine/lib/local.js
@@ -59,7 +60,7 @@ This all will generate `public/` (by default) directory when `brunch build` or `
 ## Other
 Versions of software the skeleton uses:
 
-* jQuery 1.7.2
+* jQuery 1.8.3
 * Spine 1.0.6
 * Underscore 1.3.3
 * HTML5Boilerplate 3.0.3
