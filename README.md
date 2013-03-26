@@ -1,5 +1,6 @@
 # Brunch with coffee, jade and bootstrap
 This is a simple coffee skeleton for [Brunch](http://brunch.io/).
+Based on [this one](https://github.com/damiencaselli/spine-on-brunch) (without Bootstrap and with Handlebars instead of Jade)
 
 Main languages are [CoffeeScript](http://coffeescript.org/),
 [Stylus](http://learnboost.github.com/stylus/) and
